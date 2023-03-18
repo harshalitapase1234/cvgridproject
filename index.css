@@ -39,7 +39,6 @@ p {
     grid-template-rows: 637px;
 }
 
-/* footer */
 .orange_box {
     position: absolute;
     width: 336px;
@@ -73,15 +72,18 @@ p {
 
 .column1 {
     border-radius: 30px;
+    height: 499px;
 }
 
 .column2 {
+    height: 499px;
     display: grid;
     grid-template-columns: 315px;
     grid-template-rows: 229px;
 }
 
 .column3 {
+    height: 499px;
     display: grid;
     grid-template-columns: 261px;
     grid-template-rows: 182px 110px 204px;
@@ -132,7 +134,7 @@ p {
 .seven {
     width: 90%;
     text-align: start;
-  
+
 }
 
 /* 2nd column */
@@ -201,100 +203,54 @@ p {
     margin-top: 50px;
 }
 
-/* footer */
-footer {
-    display: grid;
-    grid-template-columns: 276px 221px 399px;
-    grid-template-rows: 142px 142px 142px;
-    position: absolute;
-    width: 864px;
-    height: 138px;
-    margin-top: 499px;
-    border-radius: 30px;
-}
-
-.slide1 {
-    border-radius: 30px;
-}
-
-.slide2 {
-    border-radius: 30px;
-}
-
-.slide3 {
-    border-radius: 30px;
-}
-
 .chair img {
     position: absolute;
     width: 190px;
     height: 160px;
     margin-left: 725px;
-    z-index: 1;
-    top: -39px;
+    margin-top:-175px;
 }
 
-.slider {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+/* footer */
+footer {
     position: absolute;
-    width: 190px;
-    height: 52px;
-    left: 54px;
-    top: 35px;
-    padding: 0;
-    margin-bottom: 0px;
 }
 
-.slide1 h2 {
-    margin: 25px 165px 107px 54px;
+.personality {
+    font-size: 12px;
+display: inline-block;
+margin-top: 500px;
+margin-left: 51px;
+margin-bottom: 8px;
 }
 
-.slider2 {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    margin-top: 30px;
-    width: 190px;
-}
-
-.slider3 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    width: 190px;
-    height: 55px;
-    margin-left: 0px;
-}
-
-figcaption {
-    font-size: 8px;
+.external {
+    display: grid;
+    grid-template-columns: 96.5px 96.5px;
+    grid-template-rows: auto;
+    width: 193px;
+    font-size: 9px;
     color: #717886;
-    margin-top: 10px;
-    width: 190px;
 }
 
-.span1 {
-    margin-left: 125px;
+.subdiv2 {
+    text-align: end;
 }
 
-.span2 {
-    margin-left: 125px;
+.slide img {
+    width: 193px;
 }
-
-.span3 {
-    margin-left: 134px;
+.extrovert{
+    width: 193px;
+    margin-left: 51px;
 }
-
-.span4 {
-    margin-left: 130px;
+.busy{ 
+  margin-left: 272px;
+  width: 193px;
+  margin-top: -55px;
 }
-
-.span5 {
-    margin-left: 94px;
-}
-
-.span6 {
-    margin-left: 140px;
+.independent{
+    width: 193px;
+    margin-left: 496px;
+    margin-top: -56px;
 }
